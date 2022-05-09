@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddDeviseToUsers	db/migrate/20220502074501_add_devise_to_users.rb	/^class AddDeviseToUsers < ActiveRecord::Migration[7.0]$/;"	c
+AddTokenForUser	db/migrate/20220509100823_add_token_for_user.rb	/^class AddTokenForUser < ActiveRecord::Migration[7.0]$/;"	c
+Api	app/controllers/api/v1/users_controller.rb	/^module Api$/;"	m
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:BlogBeRor
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	test/channels/application_cable/connection_test.rb	/^class ApplicationCable::ConnectionTest < ActionCable::Connection::TestCase$/;"	c
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+BlogBeRor	config/application.rb	/^module BlogBeRor$/;"	m
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreatePost	db/migrate/20220502072443_create_post.rb	/^class CreatePost < ActiveRecord::Migration[7.0]$/;"	c
+CreateUser	db/migrate/20220502072437_create_user.rb	/^class CreateUser < ActiveRecord::Migration[7.0]$/;"	c
+GoogleAuthentication	lib/google_authentication.rb	/^module GoogleAuthentication$/;"	m
+Login	app/services/user_service/login.rb	/^  class Login$/;"	c	class:UserService
+Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserService	app/services/user_service/login.rb	/^module UserService$/;"	m
+UsersController	app/controllers/api/v1/users_controller.rb	/^    class UsersController < ApplicationController$/;"	c	class:Api.V1
+V1	app/controllers/api/v1/users_controller.rb	/^  module V1$/;"	m	class:Api
+activate_bundler	bin/bundle	/^  def activate_bundler$/;"	f
+activation_error_handling	bin/bundle	/^  def activation_error_handling$/;"	f
+authenticate_with_token	app/services/user_service/login.rb	/^    def authenticate_with_token(access_token)$/;"	f	class:UserService.Login
+bundler_requirement	bin/bundle	/^  def bundler_requirement$/;"	f
+bundler_requirement_for	bin/bundle	/^  def bundler_requirement_for(version)$/;"	f
+change	db/migrate/20220502072437_create_user.rb	/^  def change$/;"	f	class:CreateUser
+change	db/migrate/20220502072443_create_post.rb	/^  def change$/;"	f	class:CreatePost
+change	db/migrate/20220509100823_add_token_for_user.rb	/^  def change$/;"	f	class:AddTokenForUser
+cli_arg_version	bin/bundle	/^  def cli_arg_version$/;"	f
+down	db/migrate/20220502074501_add_devise_to_users.rb	/^  def self.down$/;"	F	class:AddDeviseToUsers
+env_var_version	bin/bundle	/^  def env_var_version$/;"	f
+from_omniauth	app/models/user.rb	/^  def self.from_omniauth(access_token)$/;"	F	class:User
+gemfile	bin/bundle	/^  def gemfile$/;"	f
+initialize	app/services/user_service/login.rb	/^    def initialize(params)$/;"	f	class:UserService.Login
+invoked_as_script?	bin/bundle	/^  def invoked_as_script?$/;"	f
+load_bundler!	bin/bundle	/^  def load_bundler!$/;"	f
+lockfile	bin/bundle	/^  def lockfile$/;"	f
+lockfile_version	bin/bundle	/^  def lockfile_version$/;"	f
+login	app/controllers/api/v1/users_controller.rb	/^      def login$/;"	f	class:Api.V1.UsersController
+login	app/services/user_service/login.rb	/^    def login$/;"	f	class:UserService.Login
+logout	app/controllers/api/v1/users_controller.rb	/^      def logout$/;"	f	class:Api.V1.UsersController
+omniauth_callbacks	app/controllers/api/v1/users_controller.rb	/^      def omniauth_callbacks$/;"	f	class:Api.V1.UsersController
+sign_up	app/controllers/api/v1/users_controller.rb	/^      def sign_up$/;"	f	class:Api.V1.UsersController
+system!	bin/setup	/^def system!(*args)$/;"	f
+up	db/migrate/20220502074501_add_devise_to_users.rb	/^  def self.up$/;"	F	class:AddDeviseToUsers
