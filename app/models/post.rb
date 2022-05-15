@@ -13,5 +13,6 @@
 #  updated_at :datetime         not null
 #
 class Post < ActiveRecord::Base
-
+  belongs_to :users, foreign_key: :author_id, class_name: 'User'
+  belongs_to :tag
 end

@@ -19,8 +19,9 @@ module Api
       end
 
       def omniauth_callbacks
-        binding.pry
       end
+
+      private
     end
   end
 end
